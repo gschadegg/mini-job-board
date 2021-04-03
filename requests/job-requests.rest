@@ -1,0 +1,26 @@
+POST http://localhost:3001/api/jobs
+Content-Type: application/json
+
+{
+   "company": "The Air Filter Company",
+    "logo": "./images/the-air-filter-company.svg",
+    "new": false,
+    "featured": false,
+    "position": "Front-end Dev",
+    "role": "Frontend",
+    "level": "Junior",
+    "postedAt": "2021-01-24T03:48:21.455Z",
+    "contract": "Part Time",
+    "location": "Worldwide",
+    "languages": ["JavaScript"],
+    "tools": ["React", "Sass"]
+}
+
+### 
+GET http://localhost:3001/api/jobs
+Content-Type: application/json
+
+
+### 
+DELETE http://localhost:3001/api/jobs/605ffc5d635885228851b090
+Content-Type: application/json
