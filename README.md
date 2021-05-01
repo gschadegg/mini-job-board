@@ -10,6 +10,15 @@ Create an application that allows users to:
 - View the optimal layout for the site depending on their device's screen size
 - Filter job listings based on the categories
 
+
+### The application
+
+With this application after completeing the challenge I started adding other features
+
+- Allow user to add job posting to the list
+- Form validation for select required fields
+- Displaying different types of notifications
+
 ### Built with
 
 - React
